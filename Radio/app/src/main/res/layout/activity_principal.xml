@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bira.radio.principal">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button_play"
+        android:layout_below="@+id/button_play"
+        android:layout_marginStart="16dp"
+        android:text="@string/button_play"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        tools:text="@string/button_play" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button_stop"
+        android:layout_below="@+id/button_stop"
+        android:layout_marginEnd="14dp"
+        android:text="@string/button_stop"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        tools:text="@string/button_stop" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        app:srcCompat="@drawable/logo1"
+        tools:ignore="ContentDescription"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/button_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_alignTop="@+id/button_stop"
+        android:adjustViewBounds="false"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/button_play"
+        app:srcCompat="@drawable/play"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <ImageButton
+        android:id="@+id/button_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginTop="36dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/button_stop"
+        app:srcCompat="@drawable/stop" />
+
+</RelativeLayout>
