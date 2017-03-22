@@ -2,130 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\Cliente\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
-        <dex dex="C:\Users\Cliente\AndroidStudioProjects\Radio\app\build\intermediates\pre-dexed\debug\support-annotations-25.2.0_2902bad6370536943c22139febcb6260b7b86d3f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Cliente\.android\build-cache\73a3f2e3e91c0ed97d3280fc07eb894fb2bcc3e7\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Cliente\AndroidStudioProjects\Radio\app\build\intermediates\pre-dexed\debug\classes_5e7d01e28d18a7c4b8f489d9cfef3c7e1e8642a0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Cliente\.android\build-cache\6112e360e5b6c7c4e60a287d31dfb1b3140db054\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
-        <dex dex="C:\Users\Cliente\AndroidStudioProjects\Radio\app\build\intermediates\pre-dexed\debug\classes_77c80b807c50055ce3a3e31d9015bf3d613cf434.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Cliente\.android\build-cache\0d389742fd5401246fb7f259f1876f99cc48e998\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
-        <dex dex="C:\Users\Cliente\AndroidStudioProjects\Radio\app\build\intermediates\pre-dexed\debug\classes_aa0dd00fd4cc92454128fbbb253fdbafa38dc918.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Cliente\.android\build-cache\ed70ba898991c0afdc11f0cd7e7b3c51519a5c6e\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
-        <dex dex="C:\Users\Cliente\AndroidStudioProjects\Radio\app\build\intermediates\pre-dexed\debug\classes_6a4ce41abe3dad1264876934cf64e9d67416c7b8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Cliente\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\Cliente\AndroidStudioProjects\Radio\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_e4e611dbd2df1bbe3678d5081193e2f0517a2500.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Cliente\.android\build-cache\87819fd78ab8cc459d7119af79bbb2e3f84b0eca\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
-        <dex dex="C:\Users\Cliente\AndroidStudioProjects\Radio\app\build\intermediates\pre-dexed\debug\classes_cd72d81672c2c5619b3533c71995388fd485ce5a.jar" />
-    </item>
-    <item
         is-multidex="true"
-        jar="C:\Users\Cliente\AndroidStudioProjects\Radio\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="612d4e4e5873021bff1b7c47ec78b6c30fa356b8">
-        <dex dex="C:\Users\Cliente\AndroidStudioProjects\Radio\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4ebe91eff06e0dd5ba3b173a9d62cdd1b050addf\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Cliente\.android\build-cache\018ad6a222f1e217e1b5d0d009f5dd3e938fe1a7\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
-        <dex dex="C:\Users\Cliente\AndroidStudioProjects\Radio\app\build\intermediates\pre-dexed\debug\classes_d77bb0b4fd96481729134e1dcfb57ca5eacd5329.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Cliente\.android\build-cache\4575e8a9063eb9572fd84ff56b25d4f35138f2b8\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
-        <dex dex="C:\Users\Cliente\AndroidStudioProjects\Radio\app\build\intermediates\pre-dexed\debug\classes_b8c250c1302df55948abaecc39ab298562fa21d5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Cliente\.android\build-cache\ad782202a32d233198164e7f2fb7bd1fb5243233\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
-        <dex dex="C:\Users\Cliente\AndroidStudioProjects\Radio\app\build\intermediates\pre-dexed\debug\classes_ebf6eb2aa16d31fa50ecb36db03b0e13a15fe415.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Cliente\.android\build-cache\7e08429133c626636264b38d553d8167c2719c92\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\Cliente\AndroidStudioProjects\Radio\app\build\intermediates\pre-dexed\debug\classes_cbb64b5d82ad5511c6e6c0462a23644b1fc6a6bd.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Cliente\AndroidStudioProjects\Radio\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Cliente\AndroidStudioProjects\RadioOnline\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="C:\Users\Cliente\AndroidStudioProjects\Radio\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_de1fc56b6b3eef274258b3dd110d91b216a6883d\classes.dex" />
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\RadioOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f0c920ecf06d38927c3951f065a8232702139e08\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Cliente\.android\build-cache\20734f25a2f3a04393006279660aa9770cdc7839\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Cliente\AndroidStudioProjects\RadioOnline\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
-        <dex dex="C:\Users\Cliente\AndroidStudioProjects\Radio\app\build\intermediates\pre-dexed\debug\classes_e105118f12587cfb4649c0fae53731e1ece5d99f.jar" />
+        sha1="601366ff50f99e182c4912908439ca79ef58affe">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\RadioOnline\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_7cdaeb55d59148f8e9773b98d7b28ad851541532\classes.dex" />
     </item>
 
 </items>
