@@ -32,6 +32,7 @@ public class principal extends AppCompatActivity {
         return teste;
     }
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,16 +48,12 @@ public class principal extends AppCompatActivity {
 
                 verificaConexao();
                 if (teste == true) {
-                    final ProgressDialog pdialog = new ProgressDialog(principal.this);
-                    pdialog.setCancelable(true);
-                    pdialog.setMessage("Conectando ....");
-                    pdialog.show();
-
                     Toast.makeText(
                             principal.this,
                             "Conectando... aguarde",
                             Toast.LENGTH_LONG
                     ).show();
+
                     try {
 
                         mePlayer = new MediaPlayer();
@@ -68,46 +65,63 @@ public class principal extends AppCompatActivity {
                                 mp.start();
                             }
                         });
-                        new Thread() {
+
+                        final ProgressDialog pdialog = new ProgressDialog(principal.this);
+                        pdialog.setCancelable(true);
+                        pdialog.setMessage("Conectando ....");
+                        pdialog.show();
+
+                        new Thread(new Runnable() {
                             public void run() {
                                 try {
-                                    // sleep the thread, whatever time you want.
-                                    sleep(10000);
-                                } catch (Exception e) {
+
+                                    Thread.sleep(10000);
+                                    pdialog.dismiss();
                                 }
-                                pdialog.dismiss();
+                                catch (Exception e) {
+                                    e.printStackTrace();
+                                }
                             }
-                        }.start();
+                        }).start();
+
                     } catch (IOException e) {
 
                         e.printStackTrace();
 
+                        Toast.makeText(
+                                principal.this,
+                                "Erro: "+ e,
+                                Toast.LENGTH_LONG
+                        ).show();
+
                     }
-                } else {
+                }
+                else {
 
                     Toast.makeText(
                             principal.this,
                             "Verifique sua conexão com a internet!!",
-                            Toast.LENGTH_LONG
+                            Toast.LENGTH_SHORT
                     ).show();
                 }
             }
         });
-
-
         button_stop.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-
                 mePlayer.stop();
+                mePlayer.release();
+                mePlayer = null;
 
                 Toast.makeText(
                         principal.this,
-                        "Desconectando...",
-                        Toast.LENGTH_SHORT
+                        "Desconectando... ",
+                        Toast.LENGTH_LONG
                 ).show();
             }
+
+
         });
     }
 
